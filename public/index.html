@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <aside id="note-list">
+            <h2>Dine notater</h2>
+            <ul id="notes"></ul>
+            <button id="new-note">Nytt notat</button>
+        </aside>
+
+        <main id="note-editor">
+            <input type="text" id="note-title" placeholder="Tittel">
+            <textarea id="note-content" placeholder="Skriv notatet ditt her..."></textarea>
+            <button id="save-note">Lagre</button>
+            <button id="delete-note">Slett</button>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
